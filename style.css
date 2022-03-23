@@ -1,31 +1,41 @@
-.header, .section {
-    background-color: #1F2937;
-    display: flex;
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.img-container {
+    max-width: 400px;
+    width: 100%;
+}
+
 img {
-    width: 400px;
-    height: 150px;
+    width: 100%;
+    height: auto;
 }
 
 .header-logo {
     color: #E5E7EB;
     display: flex;
     align-items: center;
-    padding-right: 300px;
 }
 
 .links {
-    display: flex;
+    display: flex; 
     gap: 8px;
+    padding: 0;
+}
+
+
+.hero-container {
     justify-content: flex-end;
+    align-items: center;
+    padding: 0 2rem 4rem 2rem;
+    display: flex;
 }
 
 .section {
-    padding: 50px 150px;
-    justify-content: flex-end;
-    align-items: center;
+    margin: 0 auto 0 auto;
+    max-width: 900px;
+    width: 100%;
 }
 
 ul {
@@ -34,9 +44,10 @@ ul {
 }
 
 
-h1, p {
+h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .sub-text {
@@ -44,6 +55,7 @@ h1, p {
     font-size: 18px;
     margin-top: 0;
     padding-top: 8px;
+    margin-bottom: 1rem;
 }
 
 h1 {
@@ -52,6 +64,7 @@ h1 {
 }
 
 .header-text {
+    flex-shrink: 1;
     padding-right: 16px;
 }
 
@@ -63,11 +76,65 @@ button {
     padding: 4px 16px;
 }
 
+.header-container {
+    background-color: #1F2937;
+    
+}
+
+.header-link-container {
+    padding: 0 2rem 0 2rem;
+    justify-content: space-between;
+    display: flex;
+}
+
 .header {
-    justify-content: space-evenly;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto 2rem auto;
 }
 
 a {
     color: #E5E7EB;
     text-decoration: none;
+}
+
+html body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+.illustration {
+    max-width: 150px;
+    
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.super-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 0 16px 0 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption {
+    color: #1F2937; 
+}
+
+.middle-header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 32px;
 }
