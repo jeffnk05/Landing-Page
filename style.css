@@ -98,14 +98,6 @@ a {
     text-decoration: none;
 }
 
-html body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-}
-
 .illustration {
     max-width: 150px;
     
@@ -115,6 +107,8 @@ html body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .super-container {
@@ -130,6 +124,7 @@ html body {
 
 .caption {
     color: #1F2937; 
+    margin-top: 0;
 }
 
 .middle-header {
@@ -137,4 +132,17 @@ html body {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 32px;
+}
+
+.sub-img {
+    max-height: 150px;
+    flex: 1;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 3px;
+}
+
+h2 {
+    font-size: 36px;
 }
